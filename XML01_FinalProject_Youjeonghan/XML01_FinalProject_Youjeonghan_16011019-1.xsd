@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.Insect.com"
+    xmlns:ins="http://www.Insect.com"
+    xmlns:sec="http://www.Security_info.com">
+
+    <xsd:include schemaLocation="XML01_FinalProject_Youjeonghan_16011019-2.xsd"/>
+    <xsd:import namespace="http://www.Security_info.com" schemaLocation="XML01_FinalProject_Youjeonghan_16011019-4.xsd"/>
+
+    <xsd:element name="Insect_Museum">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="ins:insects"/>
+                <xsd:element ref="ins:securitys"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="insects">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="ins:insect" minOccurs="10" maxOccurs="unbounded"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="securitys">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="sec:security" minOccurs="3" maxOccurs="unbounded"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+</xsd:schema>

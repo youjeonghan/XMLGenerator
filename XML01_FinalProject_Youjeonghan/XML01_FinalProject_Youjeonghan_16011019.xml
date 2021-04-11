@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="XML01_FinalProject_Youjeonghan_16011019.xsl"?>
+<Insect_Museum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+            xsi:schemaLocation="http://www.Insect.com XML01_FinalProject_Youjeonghan_16011019-1.xsd"
+            xmlns="http://www.Insect.com"
+            xmlns:ins2="http://www.Insect_info.com"
+            xmlns:sec="http://www.Security_info.com">
+    <insects>
+        <!--벌레객체-->
+        <insect>
+            <name>검정말벌</name>
+            <control_number>1</control_number>
+            <ins2:img src="insect_img/검정말벌.jpg" width="100" height="100" alt="검정말벌"/>
+            <info>
+                <ins2:introduce>검정말벌은 말벌과 벌의 한 종류이다. 몸은 검정색이며, 얼굴은 적색이다.</ins2:introduce>
+                <ins2:classification>말벌과</ins2:classification>
+                <ins2:classification_info>벌목 말벌상과의 하위 분류</ins2:classification_info>
+                <ins2:size>15</ins2:size>
+                <residence_country>한국</residence_country>
+            </info>
+        </insect>
+        <insect>
+            <name>대벌레</name>
+            <control_number>2</control_number>
+            <ins2:img src="insect_img/대벌레.jpg" width="100" height="100" alt="대벌레" />
+            <info>
+                <ins2:introduce>자신을 보호하기 위해 몸이 나뭇가지 모양이며, 적에게 잡히면 다리를 끊고 도망간다.</ins2:introduce>
+                <ins2:classification>대벌레과</ins2:classification>
+                <ins2:classification_info>없음</ins2:classification_info>
+                <ins2:size>80</ins2:size>
+                <residence_country>한국</residence_country>
+            </info>
+        </insect>
+        <insect>
+            <name>멧누에나방</name>
+            <control_number>3</control_number>
+            <ins2:img src="insect_img/멧누에나방.jpg" width="100" height="100" alt="멧누에나방" />
+            <info>
+                <ins2:introduce>누에나방과 닮았다. 몸과 날개의 바탕색은 회갈색에 올리브 빛이 난다. 수컷보다 암컷의 색상이 조금 옅다.</ins2:introduce>
+                <ins2:classification>누에나방과</ins2:classification>
+                <ins2:classification_info>없음</ins2:classification_info>
+                <ins2:size>40</ins2:size>
+                <residence_country>일본</residence_country>
+            </info>
+        </insect>
+        <insect>
+            <name>재래꿀벌</name>
+            <control_number>4</control_number>
+            <ins2:img src="insect_img/재래꿀벌.jpg" width="100" height="100" alt="재래꿀벌" />
+            <info>
+                <ins2:introduce> 아시아 지역에서 사는 야생 꿀벌이다. 토종꿀벌, 동양꿀벌로 불리기도 한다.</ins2:introduce>
+                <ins2:classification>꿀벌과</ins2:classification>
+                <ins2:classification_info>벌목의 한 과로 꿀벌, 호박벌, 뒤영벌, 꽃벌 등이 이 분류에 속한다.</ins2:classification_info>
+                <ins2:size>12</ins2:size>
+                <residence_country>한국</residence_country>
+            </info>
+        </insect>
+        <insect>
+            <name>붉은매미나방</name>
+            <control_number>5</control_number>
+            <ins2:img src="insect_img/붉은매미나방.jpg" width="100" height="100" alt="붉은매미나방" />
+            <info>
+                <ins2:introduce>활엽수의 잎을 주로 갉아먹기 때문에, 해충으로 간주된다.</ins2:introduce>
+                <ins2:classification>태극나방과</ins2:classification>
+                <ins2:classification_info>나비목 밤나방상과의 나방 과의 하나로, 가장 많은 종을 포함</ins2:classification_info>
+                <ins2:size>50</ins2:size>
+                <residence_country>중국</residence_country>
+            </info>
+        </insect>
+        <insect>
+            <name>애사슴벌레</name>
+            <control_number>6</control_number>
+            <ins2:img src="insect_img/애사슴벌레.jpg" width="100" height="100" alt="애사슴벌레" />
+            <info>
+                <ins2:introduce>수명은 1~2년 정도이다. 6~9월에 나타나 참나무류의 수액을 먹고 살며, 유충은 썩은 참나무류를 파먹으면서 자란다.</ins2:introduce>
+                <ins2:classification>사슴벌레과</ins2:classification>
+                <ins2:classification_info> 딱정벌레목의 한 과로, 사슴벌레등이 이에 해당한다.</ins2:classification_info>
+                <ins2:size>45</ins2:size>
+                <residence_country>한국</residence_country>
+            </info>
+        </insect>
+        <insect>
+            <name>꼬리박각시</name>
+            <control_number>7</control_number>
+            <ins2:img src="insect_img/꼬리박각시.jpg" width="100" height="100" alt="꼬리박각시" />
+            <info>
+                <ins2:introduce>박각시과 곤충의 일종으로, 긴 주둥이가 특징이다.소리가 들릴 정도의 빠른 날개짓으로 정지비행을 한 채로 꽃꿀을 먹는 것이 벌새의 특징과 일치</ins2:introduce>
+                <ins2:classification>박각시과</ins2:classification>
+                <ins2:classification_info>나방들로 이루어진 과로, 200여속에 2000여종이 속해 있다</ins2:classification_info>
+                <ins2:size>18</ins2:size>
+                <residence_country>일본</residence_country>
+            </info>
+        </insect>
+        <insect>
+            <name>홍단딱정벌레</name>
+            <control_number>8</control_number>
+            <ins2:img src="insect_img/홍단딱정벌레.jpg" width="100" height="100" alt="홍단딱정벌레" />
+            <info>
+                <ins2:introduce>몸은 붉은 색이고 광택이 나며 땅을 빠르게 기어 다니며 사냥한다. 유충도 성충처럼 빠르게 기어 다니며 잡아먹는다.</ins2:introduce>
+                <ins2:classification>딱정벌레과</ins2:classification>
+                <ins2:classification_info>딱정벌레목에 속하는 육식성 곤충의 분류이다.</ins2:classification_info>
+                <ins2:size>42</ins2:size>
+                <residence_country>한국</residence_country>
+            </info>
+        </insect>
+        <insect>
+            <name>연푸른부전나비</name>
+            <control_number>9</control_number>
+            <ins2:img src="insect_img/연푸른부전나비.jpg" width="100" height="100" alt="연푸른부전나비" />
+            <info>
+                <ins2:introduce>유럽푸른부전나비라고도 한다. 문화어로는 '연한물빛숫돌나비'로 불린다.</ins2:introduce>
+                <ins2:classification>부전나비과</ins2:classification>
+                <ins2:classification_info>나비 가운데 가장 큰 집단으로 전체 나비 종 수의 40%를 차지한다. 4~5cm의 작은 몸집을 가졌다.</ins2:classification_info>
+                <ins2:size>30</ins2:size>
+                <residence_country>중국</residence_country>
+            </info>
+        </insect>
+        <insect>
+            <name>작은흰나비</name>
+            <control_number>10</control_number>
+            <ins2:img src="insect_img/작은흰나비.jpg" width="100" height="100" alt="작은흰나비" />
+            <info>
+                <ins2:introduce>현재는 기후가 극도로 척박하지 않은 곳이라면 지구 어디에서라도 잘 발견되는 종이 되었다.</ins2:introduce>
+                <ins2:classification>흰나비과</ins2:classification>
+                <ins2:classification_info>흰나비과의 나비는 전 세계에 1천종, 한국에는 17종이 있다.</ins2:classification_info>
+                <ins2:size>47</ins2:size>
+                <residence_country>미국</residence_country>
+            </info>
+        </insect>
+        <insect>
+            <name>밀가루줄명나방</name>
+            <control_number>11</control_number>
+            <ins2:img src="insect_img/밀가루줄명나방.jpg" width="100" height="100" alt="밀가루줄명나방" />
+            <info>
+                <ins2:introduce>몸은 비늘가루로 덮혀 있다. 쌀, 보리 등의 저장곡물을 갉아먹는 해충이며 이외에도 과자 등을 갉아먹기 때문에 과자명나방이라고도 불린다.</ins2:introduce>
+                <ins2:classification>명나방과</ins2:classification>
+                <ins2:classification_info>명나방상과에 속하는 나방 무리의 한 갈래이다.</ins2:classification_info>
+                <ins2:size>12</ins2:size>
+                <residence_country>일본</residence_country>
+            </info>
+        </insect>
+        <insect>
+            <name>밤나무혹벌</name>
+            <control_number>12</control_number>
+            <ins2:img src="insect_img/밤나무혹벌.jpg" width="100" height="100" alt="밤나무혹벌" />
+            <info>
+                <ins2:introduce>밤나무의 눈에 기생하여 충영을 만들기에 해충으로 분류된다. 1941년 일본 오까야마현에서 처음 발견</ins2:introduce>
+                <ins2:classification>혹벌과</ins2:classification>
+                <ins2:classification_info>없음</ins2:classification_info>
+                <ins2:size>15</ins2:size>
+                <residence_country>중국</residence_country>
+            </info>
+        </insect>
+        <insect>
+            <name>콜로라도감자잎벌레</name>
+            <control_number>13</control_number>
+            <ins2:img src="insect_img/콜로라도감자잎벌레.jpg" width="100" height="100" alt="콜로라도감자잎벌레" />
+            <info>
+                <ins2:introduce>감자잎벌레속에 속하는 딱정벌레의 일종이다.</ins2:introduce>
+                <ins2:classification>잎벌레과</ins2:classification>
+                <ins2:classification_info>없음</ins2:classification_info>
+                <ins2:size>10</ins2:size>
+                <residence_country>미국</residence_country>
+            </info>
+        </insect>
+        <insect>
+            <name>두눈박이쌍살벌</name>
+            <control_number>14</control_number>
+            <ins2:img src="insect_img/두눈박이쌍살벌.jpg" width="100" height="100" alt="두눈박이쌍살벌" />
+            <info>
+                <ins2:introduce>동아시아 일대에 분포하는 쌍살벌의 일종이다. 도시와 촌락 지역에 두루 서식하며, 뉴질랜드에서는 1979년에 도래한 외래종으로 지정</ins2:introduce>
+                <ins2:classification>말벌과</ins2:classification>
+                <ins2:classification_info>벌목 말벌상과의 하위 분류</ins2:classification_info>
+                <ins2:size>22</ins2:size>
+                <residence_country>일본</residence_country>
+            </info>
+        </insect>
+        <insect>
+            <name>항라사마귀</name>
+            <control_number>15</control_number>
+            <ins2:img src="insect_img/항라사마귀.jpg" width="100" height="100" alt="항라사마귀" />
+            <info>
+                <ins2:introduce>8월에서 10월까지 들이나 개천가의 풀밭에서 볼 수 있으며 주로 땅과 가까운 곳에 서식한다. 먹이는 작은 곤충이나 작은 척추동물이다.</ins2:introduce>
+                <ins2:classification>사마귀과</ins2:classification>
+                <ins2:classification_info>사마귀목의 하위 과이다. 대부분의 사마귀들이 사마귀과에 속한다.</ins2:classification_info>
+                <ins2:size>65</ins2:size>
+                <residence_country>미국</residence_country>
+            </info>
+        </insect>
+    </insects>
+    <securitys>
+        <sec:security>
+            <sec:name>김경비</sec:name>
+            <sec:section>한국</sec:section>
+            <sec:info>
+                <sec:sex>M</sec:sex>
+                <sec:age>25</sec:age>
+                <sec:paycheck>300</sec:paycheck>
+                <sec:vacation>2020/11/28</sec:vacation>
+            </sec:info>
+        </sec:security>
+        <sec:security>
+            <sec:name>유경비</sec:name>
+            <sec:section>한국</sec:section>
+            <sec:section>일본</sec:section>
+            <sec:info>
+                <sec:sex>W</sec:sex>
+                <sec:age>23</sec:age>
+                <sec:paycheck>300</sec:paycheck>
+                <sec:work>한국</sec:work>
+            </sec:info>
+        </sec:security>
+        <sec:security>
+            <sec:name>국경비</sec:name>
+            <sec:section>미국</sec:section>
+            <sec:info>
+                <sec:sex>M</sec:sex>
+                <sec:age>28</sec:age>
+                <sec:paycheck>300</sec:paycheck>
+                <sec:work>미국</sec:work>
+            </sec:info>
+        </sec:security>
+        <sec:security>
+            <sec:name>신경비</sec:name>
+            <sec:section>중국</sec:section>
+            <sec:info>
+                <sec:sex>W</sec:sex>
+                <sec:age>27</sec:age>
+                <sec:paycheck>300</sec:paycheck>
+                <sec:work>중국</sec:work>
+            </sec:info>
+        </sec:security>
+        <sec:security>
+            <sec:name>이경비</sec:name>
+            <sec:section>일본</sec:section>
+            <sec:info>
+                <sec:sex>M</sec:sex>
+                <sec:age>33</sec:age>
+                <sec:paycheck>300</sec:paycheck>
+                <sec:work>일본</sec:work>
+            </sec:info>
+        </sec:security>
+    </securitys>
+</Insect_Museum>

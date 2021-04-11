@@ -1,0 +1,18 @@
+<!ENTITY % img_attribute 
+'src CDATA #REQUIRED
+width CDATA #REQUIRED
+height CDATA #REQUIRED
+alt CDATA #REQUIRED
+' >
+<!ELEMENT Insect_Museum (insect+) >
+<!ELEMENT insect (name, control_number, img, info) >
+<!ELEMENT name (#PCDATA) >
+<!ELEMENT control_number (#PCDATA) >
+<!ELEMENT img (#PCDATA) >
+<!ATTLIST img %img_attribute; >
+<!ELEMENT info (introduce, classification, classification_info, size, residence_country) >
+<!ELEMENT introduce (#PCDATA) >
+<!ELEMENT classification (#PCDATA) >
+<!ELEMENT classification_info (#PCDATA) >
+<!ELEMENT size (#PCDATA) >
+<!ELEMENT residence_country (#PCDATA) >

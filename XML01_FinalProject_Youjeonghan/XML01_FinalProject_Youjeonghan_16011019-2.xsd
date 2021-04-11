@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.Insect.com"
+    xmlns:ins="http://www.Insect.com"
+    xmlns:ins2="http://www.Insect_info.com" elementFormDefault="qualified">
+    
+    <import namespace="http://www.Insect_info.com" schemaLocation="XML01_FinalProject_Youjeonghan_16011019-3.xsd"/>
+
+    <element name="insect">
+        <complexType>
+            <all>
+                <element name="name" type="string"/>
+                <element name="control_number" type="int"/>
+                <element ref="ins2:img"/>
+                <element ref="ins:info"/>
+            </all>
+        </complexType>
+    </element>
+
+    <element name="info">
+        <complexType>
+            <complexContent>
+                <extension base="ins2:part_info">
+                    <sequence>
+                        <element name="residence_country" type="string" maxOccurs="unbounded"/>
+                    </sequence>
+                </extension>
+            </complexContent>
+        </complexType>
+    </element>
+</schema>

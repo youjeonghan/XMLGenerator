@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.Security_info.com"
+    xmlns:sec="http://www.Security_info.com" elementFormDefault="qualified">
+    
+    <include schemaLocation="XML01_FinalProject_Youjeonghan_16011019-5.xsd"/>
+
+    <element name="security">
+        <complexType>
+            <sequence>
+                <element name="name" type="string"/>
+                <element name="section" type="string" maxOccurs="unbounded"/>
+                <element name="info" type="sec:info"/>
+            </sequence>
+        </complexType>
+    </element>
+
+</schema>
